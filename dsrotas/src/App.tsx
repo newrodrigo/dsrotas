@@ -1,9 +1,11 @@
-import './App.css';
+import "./index.css";
+import Header from "./components/Header";
 
 export default function App() {
-
   return (
-    <h1>Bem-vindos!</h1>
+    <>
+      <Header />
+      <h1>Bem-vindos!</h1>
+    </>
   );
 }
-
