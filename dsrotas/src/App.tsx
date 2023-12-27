@@ -1,11 +1,18 @@
 import "./index.css";
-import Header from "./components/Header";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./routes/Home";
+import HomeBody from "./routes/Home/HomeBody";
 
 export default function App() {
   return (
     <>
-      <Header />
-      <h1>Bem-vindos!</h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route index element={<HomeBody />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }

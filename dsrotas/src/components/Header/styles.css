@@ -11,12 +11,6 @@ nav {
   justify-content: space-between;
 }
 
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
 .navbar-left {
   display: flex;
   gap: 20px;
@@ -28,6 +22,6 @@ nav {
   height: 30px;
 }
 
-.active-item {
+.active-menu-item {
   font-weight: 700;
 }
