@@ -18,7 +18,17 @@ export default function Header() {
               Início
             </NavLink>
           </div>
-          <div>Produtos</div>
+          <div>
+            {" "}
+            <NavLink
+              to="/products"
+              className={({ isActive }) =>
+                isActive ? "active-menu-item " : ""
+              }
+            >
+              Produtos
+            </NavLink>
+          </div>
           <div>
             <NavLink
               to="/about"

@@ -6,6 +6,7 @@
   --color-bg-tertiary: #c7c7c7;
 
   --color-font-primary: #FFF; 
+  --color-font-secondary: #000;
 }
 
 * {
@@ -35,3 +36,9 @@ a:hover {
 .mt20 {
   margin-top: 20px;
 }
+
+.active-menu-item {
+  font-weight: 700;
+}
+
+
