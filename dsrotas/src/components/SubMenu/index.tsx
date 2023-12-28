@@ -3,20 +3,19 @@ import "./styles.css";
 
 export default function SubMenu() {
   return (
-    <header className="header-submenu">
+    <header className="header-submenu container">
       <nav className="container submenu-nav">
         <div>
           <NavLink
-            to="/home"
+            to="computers"
             className={({ isActive }) => (isActive ? "active-menu-item " : "")}
           >
             Computadores
           </NavLink>
         </div>
-        <div>Produtos</div>
         <div>
           <NavLink
-            to="/about"
+            to="eletronics"
             className={({ isActive }) => (isActive ? "active-menu-item " : "")}
           >
             Eletrônicos
@@ -24,7 +23,7 @@ export default function SubMenu() {
         </div>
         <div>
           <NavLink
-            to="/about"
+            to="books"
             className={({ isActive }) => (isActive ? "active-menu-item " : "")}
           >
             Livros

@@ -1,10 +1,13 @@
+import "./styles.css";
+import { Outlet } from "react-router-dom";
 import SubMenu from "../../../components/SubMenu";
 export default function Products() {
   return (
     <main>
-      <section className="container mt20">
+      <div className="container mt20">
         <SubMenu />
-      </section>
+        <Outlet />
+      </div>
     </main>
   );
 }

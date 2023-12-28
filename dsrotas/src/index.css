@@ -5,7 +5,7 @@
   --color-bg-secondary: #2d28ff;
   --color-bg-tertiary: #c7c7c7;
 
-  --color-font-primary: #FFF; 
+  --color-font-primary: #fff;
   --color-font-secondary: #000;
 }
 
@@ -40,5 +40,3 @@ a:hover {
 .active-menu-item {
   font-weight: 700;
 }
-
-
